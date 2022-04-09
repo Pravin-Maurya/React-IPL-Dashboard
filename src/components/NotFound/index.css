@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-not-found {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 4px;
+}
+@media screen and (min-width: 768px) {
+  .title-not-found {
+    font-size: 28px;
+    margin-left: 50px;
+    font-weight: 500;
+  }
+}
